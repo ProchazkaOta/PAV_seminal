@@ -1,2 +1,3 @@
 # PAV_seminal
-Seminární práce pro kurz PAV
+
+Seminární práce pro kurz [PAV](https://github.com/jbrezmorf/PAV_course)
