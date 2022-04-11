@@ -7,3 +7,4 @@ hello.py
 optické jevy
 
 MAIN
+ASTEROIDS
