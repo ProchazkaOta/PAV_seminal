@@ -1,5 +1,6 @@
 # IMPORT
 import numpy as np
+import matplotlib.pyplot as plt
 
 # POCATECNI PODMINKY
 hmotnost_slunce = 333000 # Me (v jednotkach hmotnosti zeme)
