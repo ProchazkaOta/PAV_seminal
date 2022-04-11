@@ -5,12 +5,37 @@ import matplotlib.animation as animation
 from IPython.display import HTML
 
 # POCATECNI PODMINKY
-hmotnost_slunce = 333000 # Me (v jednotkach hmotnosti zeme)
-polomer_slunce = 0.0004*150000000 # AU (astronomicka jednotka) na km
-hmotnost_asteroidu = 2e-25 # Me
-prumer_asteroidu = 1 # km
+mS = 333000 # Me (v jednotkach hmotnosti zeme)
+dS = 0.0004*150000000 # AU (astronomicka jednotka) na km
+m1 = 2e-25 # Me
+d1 = 1 # km
+G = 6.674e-11 # m3.kg-1.s-2
 
-print(hmotnost_slunce)
+xS = 0
+yS = 0
+vxS = 0
+vyS = 0
+x1 = 2e8
+y1 = 0
+vx1 = 0
+vy1 = -2e5
+
+A = np.array([[xS, yS, vxS, vyS], [x1, y1, vx1, vy1]])
+M = np.array([mS, m1])
+
+def dist( D ):
+    ((D[0,0]-D[1,0])**2 + (D[0,1]-D[1,1])**2)
+    
+    return;
+
+print(A[0,0]-A[1,0])
+
+print(A)
+print(A[:,0])
+#F = G*(M[0]*M[1])/(A[0,0]-A[0,1])
+print(F)
+
+print(mS)
 
 fig, ax = plt.subplots()
 
@@ -25,7 +50,5 @@ ax.scatter(0, 1, marker="o", c="black", s=100)
 #ax.set_xlim(( 0, 2))
 #ax.set_ylim((-2, 2))
 #ax.grid()
-
-print("only a test")
 
 plt.show()
