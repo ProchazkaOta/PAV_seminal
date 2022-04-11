@@ -26,4 +26,6 @@ ax.scatter(0, 1, marker="o", c="black", s=100)
 #ax.set_ylim((-2, 2))
 #ax.grid()
 
+print("only a test")
+
 plt.show()
