@@ -1,5 +1,5 @@
 # IMPORT
-import numpy
+import numpy as np
 
 # POCATECNI PODMINKY
 hmotnost_slunce = 333000 # Me (v jednotkach hmotnosti zeme)
